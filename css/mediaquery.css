@@ -1,0 +1,68 @@
+/*--------- Nosotros---------*/
+@media (max-width:480px){
+    .contenedor {
+        height: 200px;
+    }
+   
+    .mensaje-top{
+        width: auto;
+        text-align: center;
+    }
+    .enviosuperior{
+        font-size: 16px;
+    }
+    .contenedor .logo img {
+        width: 120px;
+        height: 120px;
+        margin-right: 160px;
+    }
+    /*.checkbtn   {
+    }*/
+
+    .menu{
+        display: none;
+    }
+    .buscador input{
+        display: none;
+    }
+
+    .nosotros{
+        padding: 20px;
+        text-align: center;
+        height: 340px;
+    }
+    .nosotros h2{
+        padding: 20px;
+        padding-bottom: 20px;
+        color:#ea5242 ;
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+    }
+    .nosotros .info{
+        padding: 20px 20px;
+        width: 100%;
+        font-size: 16px;
+        font-family: 'poppins';
+        font-weight: 200;
+    }
+    .footer{
+    padding: 40px 20;
+    text-decoration: none;
+    margin-right: 160px;
+    }
+
+    .footer-grid{
+        background-color:#f9c7c1;
+        height: 400px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    .footer-grid .foo-items img{
+        padding-top: 10px;
+        width: 50px;
+        margin-right: 16px;
+    }
+    
+}
