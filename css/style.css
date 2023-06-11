@@ -267,4 +267,106 @@ footer{
     width: 100%;
     height: 200px;
 }
+/*------Categorias------*/
+.contenedor-categorias{
+   
+    background-color: #f9c7c1;
+}
+.categorias-flex2{
+    margin: auto;
+    padding-top: 90px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    height: 800px;
+}
+.categorias-flex2 .flexItems{
+    height: 280px;
+}
+.categorias-flex2 .flexItems img{
+    width: 600px;
+}
+.categorias-flex2 .titulos{
+    margin-top: -90px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'poppins';
+    color: #ea5242;
+}
 
+ .categorias-flex2 .titulos:hover{
+    color: #e83988;
+}
+
+/*------Contactanos------*/
+.formulario{
+    height: 600px;
+    font-family: 'poppins';
+    
+}
+
+.formulario .contactanos{
+    text-align: center;
+    color: #e83988;
+    font-family: 'poppins';
+    font-size: 2rem;
+    padding: 40px;
+}
+.formulario .flexItemsForm .formulario2{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.formulario input{
+    padding: 5px;
+    width: 35%;
+    border-radius: 10px;
+    border: 1px solid #e83988;
+}
+.formulario textarea{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #e83988;
+}
+.formulario .boton{
+    background: #e83988;
+    color: #ffffff;
+}
+.formulario .boton:hover{
+    background-color: #e95242;
+}
+/*------Blog------*/
+.blog {
+    margin: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: 'poppins';
+    text-decoration: none;
+}
+.blog .univ{
+    text-align: center;
+}
+.blog .paso .comoEncuadernar{
+    color: #e83988;
+    margin-top: 60px;
+    font-size: 18px;
+}
+.blog .paso img{
+    margin: 20px;
+    width: 600px;
+    text-align: left;
+    margin-left: 40px;
+}
+.blog .paso .clases ul{
+
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 40px;
+}
