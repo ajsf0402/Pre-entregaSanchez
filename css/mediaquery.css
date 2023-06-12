@@ -1,10 +1,30 @@
-
-/*--------- Nosotros---------*/
 @media (max-width:480px){
+    /*---Index---*/
+    #carouselExampleIndicators {
+        height: 160px;
+    }
+    .metodos{
+        display: none;
+    }
+    .coleccion {
+        background-color: #f9c7c1;
+        height: 1000px;
+    }
+    .grid-collection {
+        background-color: #f9c7c1;
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        gap: 10px;
+        height: 330px;
+        justify-content: center;
+        align-content:center;
+        margin:70px;
+    }
+    /*---Nosotros---*/
     .contenedor {
         height: 200px;
     }
-   
     .mensaje-top{
         width: auto;
         text-align: center;
@@ -35,7 +55,7 @@
     .nosotros h2{
         padding: 20px;
         padding-bottom: 20px;
-        color:#ea5242 ;
+        color:#ea5242;
         width: 100%;
         height: 50px;
         background-color: #ffffff;
@@ -65,5 +85,40 @@
         width: 50px;
         margin-right: 16px;
     }
-    
+   /*---Categorías---*/
+   .categorias-flex2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:900px;
+    margin: 10% 0%;
+    margin-bottom: 30%;
 }
+.categorias-flex2 .flexItems img{
+    width: 80%;
+    padding-top: 30px;
+    margin: 0% 10%
+}
+.categorias-flex2 .titulos{
+    margin-top: -48px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'poppins';
+    color: #ea5242;
+}
+    /*---Contactanos----*/
+    .logo img {
+        float: left;
+        width: 145px;
+        height: 150px;
+        margin: 0px 30%;
+    }
+    .formulario input {
+        padding: 5px;
+        width: 70%;
+        border-radius: 10px;
+        border: 1px solid #e83988;
+    }
+}
+
